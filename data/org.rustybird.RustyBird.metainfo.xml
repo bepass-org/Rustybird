@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.rustybird.RustyBird</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>RustyBird</name>
+  <summary>Mobile-first sing-box client for GNU/Linux</summary>
+  <description>
+    <p>
+      RustyBird is a proxy and VPN client for Linux phones and GNOME desktops. It drives the
+      sing-box core and covers every outbound it ships: VLESS, VMess, Trojan, Shadowsocks,
+      Hysteria, Hysteria 2, TUIC, AnyTLS, ShadowTLS, Snell, SSH, Tor, HTTP, SOCKS and
+      WireGuard endpoints.
+    </p>
+    <p>
+      Transports, multiplexing, UDP over TCP, REALITY, uTLS and encrypted client hello are all
+      editable per node. Routing exposes the full sing-box rule surface with local and remote
+      rule sets, and DNS accepts plain, DoT, DoH, DoQ, HTTP/3, DHCP and FakeIP resolvers.
+    </p>
+    <p>
+      Import nodes from subscriptions and Clash configurations, or hand a complete sing-box
+      JSON profile to the core and let it drive every routing decision.
+    </p>
+  </description>
+  <launchable type="desktop-id">org.rustybird.RustyBird.desktop</launchable>
+  <provides>
+    <binary>rustybird</binary>
+  </provides>
+</component>

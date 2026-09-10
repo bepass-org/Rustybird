@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#62a0ea"/>
+      <stop offset="1" stop-color="#1c71d8"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9f06b"/>
+      <stop offset="1" stop-color="#f5c211"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#shield)" d="M64 8 22 24v40c0 27 18 45 42 56 24-11 42-29 42-56V24z"/>
+  <path fill="#ffffff" opacity="0.14" d="M64 8 22 24v40c0 27 18 45 42 56z"/>
+  <path fill="url(#wing)" d="M78 44c-9-6-22-4-29 5-5 7-5 16 0 23l-8 12 15-5c9 4 20 1 26-7 7-9 5-22-4-28zm-14 26a9 9 0 1 1 0-18 9 9 0 0 1 0 18z"/>
+</svg>

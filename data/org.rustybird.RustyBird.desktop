@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=RustyBird
+Comment=Mobile-first sing-box proxy and VPN client for GNU/Linux
+Exec=rustybird
+Icon=org.rustybird.RustyBird
+Terminal=false
+Type=Application
+Categories=Network;Security;
+Keywords=VPN;Proxy;VLESS;VMess;Trojan;Shadowsocks;Hysteria;TUIC;AnyTLS;ShadowTLS;Snell;SSH;SOCKS;WireGuard;Sing-box;
+StartupNotify=true
